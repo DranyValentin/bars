@@ -1,0 +1,96 @@
+@import "includes/settings";
+
+.container
+{
+	max-width: $width;
+}
+
+.wr_form_login
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+/*Main*/
+
+/*Form*/
+.login
+{
+	background: #f9f9f9;
+	border: 1px solid $yellow;
+	border-radius: 10px;
+	box-shadow: 3px 3px 4px #EEE;
+
+	padding: 30px;
+	margin: 20px;
+
+	img
+	{
+		margin-bottom: 20px;
+	}
+	
+	label
+	{
+		font-size: 18px;
+	}
+
+	input
+	{
+		font-size: 18px;
+
+	}
+
+	button
+	{
+		font-size: 16px;
+
+		margin: 10px 0; 
+	}
+
+	p
+	{
+		font-size: 16px;
+		color: $red;
+	}
+}
+/*End Form*/
+
+/*End Main*/
+
+/* Media for screen from 768 to 992 */
+@media (max-width: 992px)
+{
+	
+}
+/* End Media for screen from 768 to 992 */
+/* Media for screen from 481 to 768 */
+@media (max-width: 768px)
+{
+	
+}
+/* End Media for screen from 481 to 768 */
+/* Media for screen to 480 */
+@media (max-width: 480px)
+{
+	
+}
+/* End Media for screen to 480 */
+
+/*Zero Class*/
+.width_zero
+{
+	width: 0;
+}
+
+.padding_zero
+{
+	padding: 0;
+}
+
+.margin_zero
+{
+	margin: 0;
+}
+/*End Zero Class*/

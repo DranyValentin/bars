@@ -16,7 +16,7 @@ body
 {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 .wr_address_lang
@@ -127,13 +127,21 @@ body
 	}
 }
 
+#logout-button
+{
+	background-color: #F6E700;
+
+	margin-top: 25px;
+}
+
 .callback
 {
 	min-width: 290px;
 
 	display: flex;
-	justify-content: space-around;
-	align-items: flex-end;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
 
 	h2
 	{
@@ -145,7 +153,7 @@ body
 /*End Header*/
 
 /*Main*/
-main
+.main
 {
 	margin-top: 70px;
 }

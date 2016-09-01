@@ -17,36 +17,55 @@ body
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
+	margin-top: 70px;
 }
 
 
 /*Main*/
 
 /*Form*/
-.login
+.form_login
 {
-	background: #f9f9f9;
-	border: 1px solid $yellow;
-	border-radius: 10px;
-	box-shadow: 3px 3px 4px #EEE;
+	width:550px;
+	min-height: 285px;
+	background-color: rgba(0,0,0,.5);
 
-	padding: 30px;
+
+	// background: url(../img/background_.jpg) fixed no-repeat;
+	// background-size: auto;
+	// background-position: 0 225%;
+	// border: 1px solid grey;
+	border-radius: 10px;
+	box-shadow: -4px -6px 8px 2px rgba(200, 200, 200, .5)
+				, 8px 6px 12px rgba(200, 200, 200,.5);
+
+	padding: 20px 30px;
 	margin: 20px;
 
 	img
 	{
+		width: 70px; height: 70px;
 		margin-bottom: 20px;
 	}
 	
+}
+
+.inputData
+{
+	margin-left: 85px;
+	margin-top: -90px;
+
 	label
 	{
+		color: #FFF;
 		font-size: 18px;
+		text-shadow: -4px 4px 3px #666, 1px -1px 2px #000;
 	}
 
 	input
 	{
 		font-size: 18px;
-
 	}
 
 	button
@@ -59,9 +78,11 @@ body
 	p
 	{
 		font-size: 16px;
-		color: $red;
+		font-weight: 700;
+		color: $yellow;
 	}
 }
+
 /*End Form*/
 
 /*End Main*/

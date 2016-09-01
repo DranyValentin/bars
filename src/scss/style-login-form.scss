@@ -1,5 +1,12 @@
 @import "includes/settings";
 
+body
+{
+    background: url(../img/background__.jpg) fixed;
+    background-size: 100% 100%;
+}
+
+
 .container
 {
 	max-width: $width;
